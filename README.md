@@ -7,7 +7,7 @@
 </h6>
 
 <h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
+<b>Light-Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
 </h5>
 
 <br>
@@ -21,8 +21,6 @@
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
-- 🗂 [File based routing](./src/pages)
-
 - 📦 [Components auto importing](./src/components)
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
@@ -34,8 +32,6 @@
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 
 - 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
 
 
 <br>
