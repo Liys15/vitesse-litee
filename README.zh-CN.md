@@ -7,13 +7,13 @@
 </h6>
 
 <h5 align='center'>
-<b>轻量版的 <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
+<b>轻轻量版的 <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
 </h5>
 
 <br>
 
 <p align='center'>
-<a href="https://github.com/antfu/vitesse-lite/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/Liys15/vitesse-litee/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
@@ -21,8 +21,6 @@
 ## 特性
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
-
-- 🗂 [基于文件的路由](./src/pages)
 
 - 📦 [组件自动化加载](./src/components)
 
@@ -36,8 +34,6 @@
 
 - 🦾 TypeScript, 当然
 
-- ☁️ 零配置部署 Netlify
-
 <br>
 
 完整特性,请查看 [Vitesse](https://github.com/antfu/vitesse)
@@ -49,6 +45,7 @@
 - ~~SSG~~
 - ~~PWA~~
 - ~~Markdown~~
+- ~~File based routing~~
 
 ## 预配置
 
@@ -63,8 +60,6 @@
 
 ### 插件
 
-- [Vue Router](https://github.com/vuejs/vue-router)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - 以文件系统为基础的路由
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 等，无需导入
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - 自动加载组件
 - [VueUse](https://github.com/antfu/vueuse) - 实用的 Composition API 工具合集
@@ -73,14 +68,14 @@
 
 ### GitHub 模板
 
-[使用这个模板创建仓库](https://github.com/antfu/vitesse-lite/generate).
+[使用这个模板创建仓库](https://github.com/Liys15/vitesse-litee/generate).
 
 ### 克隆到本地
 
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
+npx degit Liys15/vitesse-litee my-vitesse-app
 cd my-vitesse-app
 pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 ```
