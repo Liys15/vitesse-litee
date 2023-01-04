@@ -1,7 +1,14 @@
 <template>
-  <main font-sans h-full flex="~ col" p="x-4 y-10" text="center gray-700 dark:gray-200">
-    <p my-2> Vitesse-litee </p>
-    <TheCounter :initial="0" />
+  <main
+    font-sans h-full p-0
+    flex="~ col" items-center
+  >
+    <Navbar />
+
+    <TheCounter :initial="0" my-6 />
+
     <TheFooter />
+
+    <ModalsLayer />
   </main>
 </template>
