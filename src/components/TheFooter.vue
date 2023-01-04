@@ -1,5 +1,5 @@
 <template>
-  <nav fixed bottom-0 w-full text-xl my-6 mx-auto inline-flex justify-center gap-2>
+  <nav text-xl my-6 mx-auto inline-flex justify-center gap-2>
     <button icon-btn @click="toggleDark()">
       <div dark:i-carbon-moon i-carbon-sun />
     </button>
