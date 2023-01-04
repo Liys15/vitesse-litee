@@ -1,3 +1,5 @@
+export type GameState = 'play' | 'won' | 'lost'
+
 export type SettingType = {
   width: number
   height: number
